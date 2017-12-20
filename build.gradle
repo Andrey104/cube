@@ -1,0 +1,20 @@
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+// https://mvnrepository.com/artifact/org.jogamp.jogl/jogl-all-main
+    compile group: 'org.jogamp.jogl', name: 'jogl-all-main', version: '2.3.2'
+    // https://mvnrepository.com/artifact/org.jogamp.gluegen/gluegen-rt-main
+    compile group: 'org.jogamp.gluegen', name: 'gluegen-rt-main', version: '2.3.2'
+
+
+
+
+}
